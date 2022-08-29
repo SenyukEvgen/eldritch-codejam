@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  background: url("/eldritch-codejam/assets/home.png") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.ancients {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ancients_card {
+  width: 100%;
+  height: 400px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.Cthulthu {
+  background: url(/eldritch-codejam/assets/Ancients/Cthulthu.png) no-repeat;
+  background-size: contain;
+}
+.Azathoth {
+  background: url(/eldritch-codejam/assets/Ancients/Azathoth.png) no-repeat;
+  background-size: contain;
+}
+.IogSothoth {
+  background: url(/eldritch-codejam/assets/Ancients/IogSothoth.png) no-repeat;
+  background-size: contain;
+}
+.ShubNiggurath {
+  background: url(/eldritch-codejam/assets/Ancients/ShubNiggurath.png) no-repeat;
+  background-size: contain;
+}
+
+.difficulty_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.difficulty {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.shuffle {
+  position: absolute;
+  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(88, 14, 14, 0.3);
+  color: #fff;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.playing_field {
+  padding: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  margin: 20px;
+  padding: 10px;
+}
+
+.stage {
+  background-color: rgba(13, 18, 75, 0.3);
+  width: 120px;
+}
+
+.stage_header {
+  text-align: center;
+}
+
+.stage_dots {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.dot_green {
+  width: 20px;
+  border-radius: 10px;
+  background-color: #2e8b57;
+  text-align: center;
+}
+.dot_brown {
+  width: 20px;
+  border-radius: 10px;
+  background-color: #8b4513;
+  text-align: center;
+}
+.dot_blue {
+  width: 20px;
+  border-radius: 10px;
+  background-color: #00008b;
+  text-align: center;
+}
+
+.desc {
+  background: url(/eldritch-codejam/assets/mythicCardBackground.png) no-repeat;
+  background-size: contain;
+  width: 160px;
+  cursor: pointer;
+}
+
+.card {
+  background: url(/eldritch-codejam/assets/MythicCards/brown/brown10.png)
+    no-repeat;
+  background-size: contain;
+  width: 160px;
+}
